@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+void printTable()
+{
+	int i, j,p,q,val;
+	cout << "enter the starting point : \n ";
+	cin >> p;
+	cout << "enter the ending point : \n ";
+	cin >> q;
+	
+		for (j = 1;j <= q;j++) {
+			val = p * j;
+			cout << p << "*" << j << "=" << val << endl;
+
+		}
+		cout << "\n\n";
+	
+}
+
+int main()
+{
+	printTable();
+}
